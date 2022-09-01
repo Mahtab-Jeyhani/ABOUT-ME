@@ -1,0 +1,37 @@
+:root {
+    --primary: #d1cfe2;
+  }
+.above{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 33px;
+    display: block;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+nav{
+    padding: 10px 0;
+}
+nav ul {
+    padding: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+}
+nav a:hover{
+    color: var(--primary);
+}
+nav li.active a{
+    color: var(--primary);
+}
+img{
+    max-width: 50px;
+}
