@@ -44,3 +44,18 @@ nav li.active a{
     padding: 10px;
     
 }
+.above1{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 80px 20px;
+    font-weight: bold;
+    display: block;
+}
+
+.contact-me{
+    position: absolute;
+    max-width: 300px;
+    border-radius: 200px;
+    margin: 0 auto;
+}
+
