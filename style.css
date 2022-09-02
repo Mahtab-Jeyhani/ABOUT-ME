@@ -56,7 +56,7 @@ nav li.active a{
    
     max-width: 300px;
     border-radius: 200px;
-    margin: 0 auto;
+     margin-left: 60px;
 }
 .work{
     font-size: 25px;
@@ -64,13 +64,15 @@ nav li.active a{
 }
 .pt{
     text-align: center;
-    margin-right: 60px;
     font-size: 40px;
     font-weight: 100;
 }
 .links{
     color: black;
     text-decoration: none;
+}
+.links:hover{
+    color: blueviolet;
 }
 .weather-pic{
     max-width: 350px;
@@ -109,6 +111,12 @@ h2{
     color: grey;
 }
 .open{
-    color: blueviolet;
+    color: white;
     text-decoration: none;
+}
+.open:hover{
+    color: blueviolet;
+}
+h4{
+    line-height: 2;
 }
