@@ -73,5 +73,31 @@ nav li.active a{
     text-decoration: none;
 }
 .weather-pic{
-    max-width: 150px;
+    max-width: 350px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.other-pic{
+    max-width: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.above2{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 80px 20px;
+    display: block;
+}
+h2{
+    line-height: 70px;
+    font-weight: bold;
+}
+.bt-projects{
+    font-size: 15px;
+    padding: 5px;
+}
+.built-with{
+    font-size: 20px;
+    color: rgb(93, 93, 93);
 }
