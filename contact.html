@@ -10,85 +10,83 @@
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
     <title>Contact me</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+      @media(max-width: 800px){
+        .contact-me{
+          display: none;
+        }
+        .gmail{
+          margin: 0 auto;
+          display: inline;
+        }
+      }
+    </style>
+
 </head>
 <body>
     <div class="container">
         <nav class="d-flex justify-content-between">
-            <a href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
              <ul>
-                <li class="active"> <a href="index.html"> Home </a> </li>
+                <li> <a href="index.html"> Home </a> </li>
                 <li> <a href="projects.html"> Projects </a> </li>
-                <li> <a href="contact.html"> contact </a> </li>
+                <li  class="active"> <a href="contact.html"> contact </a> </li>
              </ul>
         </nav>
         <div class="above1">
-        <div class="content-container container mt-5">
-            <p class="mb-5 mt-5 text-center">Let's get in touch!</p>
+        <div class="container">
+            <p class="pt">Let's get in touch!</p>
             <div class="content">
               <div class="d-flex justify-content-evently text-center">
         
         
-                <div class="col pe-4">
-                  <div class="col mt-5 pb-3">
-                    <img src="github1.png" alt="github">
-                    <h3>GitHub</h3>
+                <div class="grid">
+                  <div class="g-row-6 gmail">
+                    <img src="images/github.png" alt="github">
+                    <h4>GitHub</h4>
                     <p>
                       <a href="https://github.com/mahtab-jeyhani" target="_blank" class="links">mahtab-jeyhani</a>
                     </p>
+                    <br>
                   </div>
-        
-                  <div class="col mt-5">
-                    <img src="gmail3.png" alt="" width="22">
-                    <h3>Gmail</h3>
-                    <a href="mailto:mahtabjeihani@gmail.com" target="_blank" class="links">
-                        mahtabjeihani@gmail.com
-                    </a>
-                  </div>
-                </div>
-                <div class="col mt-5">
-                    <img src="me.jpeg" alt="" class="contact-me">
-                  </div>
-                <div class="col pe-4">
-                  <div class="col mt-5 pb-3">
-                    <img src="linkedin.png" alt="">
-                    <h3>LinkedIn</h3>
+                  <div class="g-row-6 gmail">
+                    <img src="images/linkedin.png" alt="linkedin">
+                    <h4>LinkedIn</h4>
                     <p>
                       <a href="https://www.linkedin.com/in/mahtab-jeyhani-2a4418226" target="_blank" class="links">
                         @mahtab_481
                       </a>
                     </p>
                   </div>
-        
-                  <div class="col mt-5">
-                    <img src="instagram1.png" alt="">
-                    <h3>Instagram</h3>
+                </div>
+                  
+              <img class="contact-me" src="images/me.jpeg" alt="picture of me">
+              <div class="grid">
+                <div class="g-row-6 gmail">
+                  <img src="images/gmail.png" alt="" width="22">
+                    <h4>Gmail</h4>
+                    <p>
+                    <a href="mailto:mahtabjeihani@gmail.com" target="_blank" class="links">
+                        mahtabjeihani@gmail.com
+                    </a></p>
+                    <br>
+                </div>
+                <div class="g-row-6 gmail">
+                  <img src="images/instagram.png" alt="instagram">
+                    <h4>Instagram</h4>
                     <p>
                       <a href="https://www.instagram.com/mahtab_481" target="_blank" class="links">
                         Mahtab Jeyhani
                       </a>
                     </p>
-                  </div>
                 </div>
               </div>
-        
              
             </div>
           </div>
           
         </div>
-
-          <footer class="container">
-            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-              <div>
-                <h3>Work Inquiry</h3>
-                <p class="contact-text">Let's work together</p>
-              </div>
-              <div>
-                <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Daria">
-                  Contact me
-                </a>
-              </div>
-            </div>
         
             <p class="text-center mt-5 footer-coder">
               This website was coded by Mahtab Jeyhani, and is
@@ -96,6 +94,5 @@
                 open-sourced
               </a>
             </p>
-          </footer>
 </body>
 </html>
