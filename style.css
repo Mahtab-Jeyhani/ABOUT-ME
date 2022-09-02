@@ -101,3 +101,14 @@ h2{
     font-size: 20px;
     color: rgb(93, 93, 93);
 }
+.gmail{
+    margin-left:100px ;
+}
+.f{
+    text-align: center;
+    color: grey;
+}
+.open{
+    color: blueviolet;
+    text-decoration: none;
+}
