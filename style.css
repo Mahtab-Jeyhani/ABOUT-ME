@@ -1,5 +1,6 @@
 :root {
     --primary: #d1cfe2;
+    --secondary: rgb(194, 151, 234);
   }
 .above{
     background-color: var(--primary);
@@ -39,10 +40,13 @@ nav li.active a{
 }
 .imgbtm{
     background-color: var(--primary);
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 25px;
-    padding: 10px;
-    
+    padding: 10px;   
+}
+.imgbtm:hover{
+    color: var(--secondary);
+    font-size: 26px ;
 }
 .above1{
     background-color: var(--primary);
@@ -72,7 +76,7 @@ nav li.active a{
     text-decoration: none;
 }
 .links:hover{
-    color: blueviolet;
+    color: var(--secondary);
 }
 .weather-pic{
     max-width: 350px;
@@ -98,6 +102,11 @@ h2{
 .bt-projects{
     font-size: 15px;
     padding: 5px;
+    margin-left: 10px;
+}
+.bt-projects:hover{
+    font-size: 16px;
+    color:var(--secondary)
 }
 .built-with{
     font-size: 20px;
@@ -115,7 +124,7 @@ h2{
     text-decoration: none;
 }
 .open:hover{
-    color: blueviolet;
+    color: var(--secondary);
 }
 h4{
     line-height: 2;
@@ -139,4 +148,7 @@ h4{
 }
 .bt-i{
     max-width: 30px;
+}
+.robo{
+    max-width: 50px;
 }
